@@ -19,7 +19,7 @@ router.beforeEach((to, from, next) => {
 			console.log(store.getters.roles)
 			if (store.getters.roles.length === 0) {
 				store.dispatch('login2').then(res => {
-					const roles = ['admin2']
+					const roles = ['admin']
 					console.log('hhhhh')
 					console.log(store.getters.roles)
 					store.dispatch('GenerateRoutes', { roles }).then(() => {

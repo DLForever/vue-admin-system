@@ -54,6 +54,9 @@
                         return false;
                     }
                 });
+            },
+            test() {
+                
             }
         }
     }

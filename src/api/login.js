@@ -6,7 +6,8 @@ export function loginByUsername(username, password) {
 		password
 	}
 	return request({
-		url: 'http://47.74.177.128/authentication',
+		url: './login',
+		// url: '/login/login',
 		method: 'post',
 		data
 	})
