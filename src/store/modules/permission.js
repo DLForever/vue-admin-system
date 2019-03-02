@@ -43,6 +43,7 @@ const permission = {
 				if (roles.includes('admin')) {
 					accessedRouters = asyncRouterMap
 				} else {
+					console.log('wzs')
 					accessedRouters = filterAsyncRouter(asyncRouterMap, roles)
 				}
 				commit('SET_ROUTERS', accessedRouters)

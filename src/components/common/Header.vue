@@ -66,7 +66,7 @@
                 if(command == 'loginout'){
                     localStorage.removeItem('ms_username')
                     this.$router.push('/login');
-                    // location.reload()
+                    location.reload()
                 }
             },
             // 侧边栏折叠

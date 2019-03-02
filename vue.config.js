@@ -1,8 +1,7 @@
 module.exports = {
-    baseUrl: './6666',
+    baseUrl: './',
     productionSourceMap: false,
-    devServer: {
-        proxy: {
+    devServer: {        proxy: {
             '/api':{
                 target:'http://jsonplaceholder.typicode.com',
                 changeOrigin:true,
